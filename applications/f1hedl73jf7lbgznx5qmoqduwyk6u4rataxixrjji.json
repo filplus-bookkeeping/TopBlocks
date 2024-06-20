@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1hedl73jf7lbgznx5qmoqduwyk6u4rataxixrjji",
+  "Issue Number": "3",
+  "Client": {
+    "Name": "bigtimeworker",
+    "Region": "Hong Kong",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://registry.opendata.aws/allen-mouse-brain-atlas/",
+    "Social Media": "bigtimeworker01",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "This is my new personal project",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The Allen Mouse Brain Atlas is a genome-scale collection of cellular resolution gene expression profiles using in situ hybridization (ISH). Highly methodical data production methods and comprehensive anatomical coverage via dense, uniformly spaced sampling facilitate data consistency and comparability across >20,000 genes.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We will use  singularity v2 for create car files and prepare data for sealing",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "[{'id': 3,\r\n  'genes': [{'acronym': 'Snap47', 'entrez_id': 67826}],\r\n  'probes': [{'name': 'RP_040324_01_E07',\r\n    'orientation': {'name': 'Antisense'}}],\r\n  'plane_of_section': {'name': 'coronal'},\r\n  'section_metadata': 'section_data_set_3/section_data_set.json'},\r\n {'id': 5,\r\n  'genes': [{'acronym': 'Nvl', 'entrez_id': 67459}],\r\n  'probes': [{'name': 'RP_Baylor_253948',\r\n    'orientation': {'name': 'Antisense'}}],\r\n  'plane_of_section': {'name': 'coronal'},\r\n  'section_metadata': 'section_data_set_5/section_data_set.json'}]",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01157868 US\r\nf01270096 HONGKONG\r\nf0763048  LONDON\r\nf01912211 US\r\nf03140720 HONGKONG",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "4PiB",
+    "Single Size Dataset": "800TiB",
+    "Replicas": 5,
+    "Weekly Allocation": "1.5PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-06-20 06:20:05.044407827 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1hedl73jf7lbgznx5qmoqduwyk6u4rataxixrjji",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
