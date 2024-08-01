@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1y4oymm2gj2txlsxx5g6yq6f5ifah6qp2bxcaspa",
+  "Issue Number": "10",
+  "Client": {
+    "Name": "Allen Institute",
+    "Region": "Armenia",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://registry.opendata.aws/?search=managedBy:allen%20institute",
+    "Social Media": "Timothea01",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "I'm the tech lead for pubang and would like to bring more public data to filecoin",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "aws s3 ls --no-sign-request s3://allencell/ 68.7 TiB\r\naws s3 ls --no-sign-request s3://allen-mouse-brain-atlas/ 190.0 TiB\r\naws s3 ls --no-sign-request s3://ai2-public-datasets/ 38.5 TiB\r\naws s3 ls --no-sign-request s3://allen-ivy-glioblastoma-atlas/    8.5 TiB\r\naws s3 ls --no-sign-request s3://aind-benchmark-data/ephys-compression/ Total Size: 487.4 GiB\r\naws s3 ls --no-sign-request s3://allen-brain-observatory/   158.8 TiB\r\naws s3 ls --no-sign-request s3://ai2-semanticscholar-cord-19/  4.6T\r\naws s3 ls --no-sign-request s3://sea-ad-single-cell-profiling/  2.0 TiB\r\naws s3 ls --no-sign-request s3://sea-ad-quantitative-neuropathology/ 2.1 TiB\r\naws s3 ls --no-sign-request s3://sea-ad-spatial-transcriptomics/  1.4 TiB",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We use Lotus Boost to prepare the data",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://allencell/ 68.7 TiB\r\naws s3 ls --no-sign-request s3://allen-mouse-brain-atlas/ 190.0 TiB\r\naws s3 ls --no-sign-request s3://ai2-public-datasets/ 38.5 TiB\r\naws s3 ls --no-sign-request s3://allen-ivy-glioblastoma-atlas/    8.5 TiB\r\naws s3 ls --no-sign-request s3://aind-benchmark-data/ephys-compression/ Total Size: 487.4 GiB\r\naws s3 ls --no-sign-request s3://allen-brain-observatory/   158.8 TiB\r\naws s3 ls --no-sign-request s3://ai2-semanticscholar-cord-19/  4.6T\r\naws s3 ls --no-sign-request s3://sea-ad-single-cell-profiling/  2.0 TiB\r\naws s3 ls --no-sign-request s3://sea-ad-quantitative-neuropathology/ 2.1 TiB\r\naws s3 ls --no-sign-request s3://sea-ad-spatial-transcriptomics/  1.4 TiB",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02866666 \t\t\tTokyo\r\nf03144777\t\t\tTokyo\r\nf02820000\t\t\tGuangZhou\r\nf02639655\t\t\tGuangZhou\r\nf02588263\t\t\tHong Kong\r\nf01969779  Santa Clara(US)\r\nf02201190   US",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "3.5PiB",
+    "Single Size Dataset": "500TiB",
+    "Replicas": 7,
+    "Weekly Allocation": "2PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-08-01 04:14:20.263835756 UTC",
+    "Validated By": "woshidama323",
+    "Active": true,
+    "Updated At": "2024-08-01 04:15:46.280814953 UTC",
+    "Active Request ID": "ca569482-6eb5-4393-88e5-a1bf122163ae",
+    "On Chain Address": "f1y4oymm2gj2txlsxx5g6yq6f5ifah6qp2bxcaspa",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "ca569482-6eb5-4393-88e5-a1bf122163ae",
+      "Request Type": "First",
+      "Created At": "2024-08-01 04:14:20.263843075 UTC",
+      "Updated At": "2024-08-01 04:14:20.263844873 UTC",
+      "Active": false,
+      "Allocation Amount": "200TiB",
+      "Signers": [
+        {
+          "Github Username": "woshidama323",
+          "Signing Address": "f1ez4nfx4lbqmddefk3gpqisf2xcfr3g6qm4qes7i",
+          "Created At": "2024-08-01 04:15:43.502000000 UTC",
+          "Message CID": "bafy2bzaced6txk4pwbvuthzrswelmtbexdraz4yr4xwjlm6ohbpvs3tbdskye"
+        }
+      ]
+    }
+  ]
+}
