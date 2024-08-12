@@ -35,7 +35,7 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2024-08-01 04:14:20.263835756 UTC",
     "Validated By": "woshidama323",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "a7c127b1-debd-4268-b2bf-da5ebd745d7c",
     "On Chain Address": "f1y4oymm2gj2txlsxx5g6yq6f5ifah6qp2bxcaspa",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
