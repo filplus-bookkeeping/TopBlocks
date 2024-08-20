@@ -39,8 +39,8 @@
     "Validated At": "2024-08-01 04:14:20.263835756 UTC",
     "Validated By": "woshidama323",
     "Active": true,
-    "Updated At": "2024-08-17 07:38:59.312579381 UTC",
-    "Active Request ID": "c73b422f-3179-4304-b515-26b59cc6ad54",
+    "Updated At": "2024-08-20 02:11:49.617614813 UTC",
+    "Active Request ID": "1262a67f-30eb-4007-aa2e-afa21836be72",
     "On Chain Address": "f1y4oymm2gj2txlsxx5g6yq6f5ifah6qp2bxcaspa",
     "Multisig Address": "false",
     "edited": false
@@ -123,6 +123,22 @@
           "Signing Address": "f1ez4nfx4lbqmddefk3gpqisf2xcfr3g6qm4qes7i",
           "Created At": "2024-08-17 07:38:56.921000000 UTC",
           "Message CID": "bafy2bzaceatyf5rnpsu5u5ofquc525eb5i52hflyq3jk7syq3hrj2oovi5zw4"
+        }
+      ]
+    },
+    {
+      "ID": "1262a67f-30eb-4007-aa2e-afa21836be72",
+      "Request Type": "Refill",
+      "Created At": "2024-08-20 02:10:50.469719128 UTC",
+      "Updated At": "2024-08-20 02:10:50.469721799 UTC",
+      "Active": false,
+      "Allocation Amount": "1.17PiB",
+      "Signers": [
+        {
+          "Github Username": "woshidama323",
+          "Signing Address": "f1ez4nfx4lbqmddefk3gpqisf2xcfr3g6qm4qes7i",
+          "Created At": "2024-08-20 02:11:46.820000000 UTC",
+          "Message CID": "bafy2bzacecvuv5wyiligbcj4j37h4ios7mz3j7zjeyjagtp54dgzb7ehanhd4"
         }
       ]
     }
