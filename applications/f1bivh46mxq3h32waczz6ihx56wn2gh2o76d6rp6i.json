@@ -35,11 +35,11 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2024-12-01 12:37:30.515872929 UTC",
+    "State": "Granted",
+    "Validated At": "2024-12-01 12:40:13.318212076 UTC",
     "Validated By": "woshidama323",
     "Active": true,
-    "Updated At": "2024-12-01 12:37:30.515877095 UTC",
+    "Updated At": "2024-12-01 12:40:13.318208618 UTC",
     "Active Request ID": "4f861d93-acd8-466f-a952-42fe87e091d0",
     "On Chain Address": "f1bivh46mxq3h32waczz6ihx56wn2gh2o76d6rp6i",
     "Multisig Address": "false",
@@ -67,9 +67,16 @@
       "Request Type": "Refill",
       "Created At": "2024-12-01 12:37:30.515881445 UTC",
       "Updated At": "2024-12-01 12:37:30.515882436 UTC",
-      "Active": true,
-      "Allocation Amount": "1024TiB",
-      "Signers": []
+      "Active": false,
+      "Allocation Amount": "1PiB",
+      "Signers": [
+        {
+          "Github Username": "woshidama323",
+          "Signing Address": "f1ez4nfx4lbqmddefk3gpqisf2xcfr3g6qm4qes7i",
+          "Created At": "2024-12-01 12:40:10.350000000 UTC",
+          "Message CID": "bafy2bzacea2esn2n4vtdqyeygzygug5lblhl64cxo6jksrtgnimk5qmcpkmg2"
+        }
+      ]
     }
   ]
 }
